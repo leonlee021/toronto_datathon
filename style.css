@@ -221,14 +221,33 @@ span:hover {
 }
 
 #sectiontwo__heading {
-  font-size: 2.8rem;
+  font-size: 4rem;
   padding: 20px;
 }
 
 #sectiontwo__aboutme {
-  width: 50%;
+  width: 60%;
   padding: 20px;
   font-size: 1.5rem;
+}
+
+#sectiontwo__register {
+  background-color: #a30202;
+  padding: 25px 10px;
+  width: 150px;
+  text-align: center;
+  border-radius: 25%;
+  font-size: 1.1rem;
+  -webkit-transition: 0.75s;
+  transition: 0.75s;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#sectiontwo__register:hover {
+  width: 160px;
 }
 
 #sectionthree__text {
