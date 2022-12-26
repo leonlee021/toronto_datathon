@@ -232,8 +232,8 @@ span:hover {
 }
 
 .sectionthree__cover {
-  height: 200px;
-  width: 200px;
+  height: 130px;
+  width: 320px;
   overflow: hidden;
   border-radius: 35px;
   cursor: pointer;
@@ -250,8 +250,8 @@ span:hover {
 
 .projectcontainer :hover {
   border-color: #a30202;
-  width: 210px;
-  height: 210px;
+  width: 340px;
+  height: 150px;
 }
 
 #sectionthree {
