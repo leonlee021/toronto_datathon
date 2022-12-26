@@ -188,9 +188,9 @@ span:hover{
 }
 
 .sectionthree__cover{
-    border-style: solid;
-    border-color: rgb(0, 0, 0);
-    border-width: 3px;
+    // border-style: solid;
+    // border-color: rgb(0, 0, 0);
+    // border-width: 3px;
     height: 200px;
     width: 200px;
     overflow: hidden;
@@ -204,7 +204,7 @@ span:hover{
 .projectcontainer{
     transition: 0.75s;
     :hover{
-        border-color: rgb(0, 217, 255);
+        border-color: rgb(163, 2, 2);
         width: 210px;
         height: 210px;
     }
@@ -353,7 +353,6 @@ span:hover{
         justify-content: center;
         align-items: center;
         gap: 30px;
-        width: 90%;
     }
     
     #sectiontwo__heading{
