@@ -136,6 +136,8 @@ body{
     font-family: 'Montserrat', sans-serif;
     color: #ffffff;
     // border: 3px solid #ffffff;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .sectionone__logo{
@@ -346,9 +348,9 @@ span:hover{
     #sectionone__text{
         display: flex;
         flex-direction: column;
+        gap: 20px;
         // justify-content: center;
-        align-items: center;
-        gap: 50px;
+        // align-items: center;
     }
     
     #sectionone__name{
