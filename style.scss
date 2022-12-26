@@ -118,6 +118,31 @@ body{
     font-size: 3rem;
 }
 
+#sectionone__registerrow{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#sectionone__register{
+    background-color: rgb(163, 2, 2);
+    padding: 10px 10px;
+    width: 150px;
+    text-align: center;
+    font-size: 1.1rem;
+    // border-radius: 5%;
+    &:hover{
+    }
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    // border: 3px solid #ffffff;
+}
+
+.sectionone__logo{
+    width: 40px;
+    cursor: pointer;
+}
+
 span{
     color: rgb(0, 217, 255);
     cursor: pointer;
@@ -134,7 +159,9 @@ span:hover{
 #sectiontwo__text{
     // margin-top: 30vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     gap: 30px;
 }
 
@@ -319,8 +346,9 @@ span:hover{
     #sectionone__text{
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        // justify-content: center;
         align-items: center;
+        gap: 50px;
     }
     
     #sectionone__name{

@@ -145,6 +145,32 @@ body {
   font-size: 3rem;
 }
 
+#sectionone__registerrow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 10px;
+}
+
+#sectionone__register {
+  background-color: #a30202;
+  padding: 10px 10px;
+  width: 150px;
+  text-align: center;
+  font-size: 1.1rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+}
+
+.sectionone__logo {
+  width: 40px;
+  cursor: pointer;
+}
+
 span {
   color: #00d9ff;
   cursor: pointer;
@@ -162,9 +188,16 @@ span:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   gap: 30px;
 }
 
@@ -408,12 +441,10 @@ span:hover {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    gap: 50px;
   }
   #sectionone__name {
     font-size: 3rem;
