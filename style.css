@@ -380,8 +380,8 @@ span:hover {
 
 @media (max-width: 500px) {
   body {
-    font-family: 'Optima';
-    background-color: white;
+    font-family: 'Barlow';
+    background-color: #f7eada;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -410,20 +410,18 @@ span:hover {
     position: sticky;
     top: 0px;
     padding: 20px 20px;
-    background-color: black;
     font-size: 1rem;
   }
   #heading__name {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     cursor: pointer;
-    text-shadow: 0px -2.5px 3px #00d9ff;
     -webkit-transition: 0.5s;
     transition: 0.5s;
     text-decoration: none;
-    color: white;
+    color: black;
   }
   #heading__name:hover {
-    font-size: 2.2rem;
+    font-size: 1.7rem;
   }
   #heading__links {
     display: -webkit-box;
@@ -436,12 +434,12 @@ span:hover {
   }
   .heading__links {
     text-decoration: none;
-    color: white;
-    font-size: 1.5rem;
+    color: black;
+    font-size: 1rem;
     cursor: pointer;
   }
   .heading__links:hover {
-    color: #00d9ff;
+    color: #a30202;
   }
   .section {
     display: -webkit-box;
@@ -456,7 +454,7 @@ span:hover {
     height: 100vh;
   }
   #sectionone__greeting {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
   #sectionone {
     margin: 15px 0px;
@@ -558,7 +556,6 @@ span:hover {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    gap: 10px;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -581,12 +578,6 @@ span:hover {
     gap: 15px;
   }
   .sectionthree__cover {
-    border-style: solid;
-    border-color: black;
-    border-width: 3px;
-    height: 70px;
-    width: 50px;
-    overflow: hidden;
     border-radius: 35px;
     cursor: pointer;
     min-width: none;
