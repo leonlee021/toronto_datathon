@@ -145,6 +145,14 @@ body{
     cursor: pointer;
 }
 
+#sectionone__text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    // justify-content: center;
+    // align-items: center;
+}
+
 span{
     color: rgb(0, 217, 255);
     cursor: pointer;
@@ -332,7 +340,6 @@ span:hover{
         justify-content: center;
         height: 100vh;
     }
-    
     #sectionone__greeting{
         font-size: 3.5rem;
     }
@@ -348,9 +355,8 @@ span:hover{
     #sectionone__text{
         display: flex;
         flex-direction: column;
-        gap: 20px;
-        // justify-content: center;
-        // align-items: center;
+        justify-content: center;
+        align-items: center;
     }
     
     #sectionone__name{
