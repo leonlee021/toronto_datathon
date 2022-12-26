@@ -130,8 +130,9 @@ body{
     width: 150px;
     text-align: center;
     font-size: 1.1rem;
-    // border-radius: 5%;
+    transition: 0.75s;
     &:hover{
+        width: 160px;
     }
     font-family: 'Montserrat', sans-serif;
     color: #ffffff;

@@ -162,10 +162,16 @@ body {
   width: 150px;
   text-align: center;
   font-size: 1.1rem;
+  -webkit-transition: 0.75s;
+  transition: 0.75s;
   font-family: 'Montserrat', sans-serif;
   color: #ffffff;
   cursor: pointer;
   text-decoration: none;
+}
+
+#sectionone__register:hover {
+  width: 160px;
 }
 
 .sectionone__logo {
