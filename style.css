@@ -355,43 +355,6 @@ span:hover {
   width: 85%;
 }
 
-#sectionfour__heading {
-  font-size: 2.8rem;
-  padding: 20px;
-}
-
-.sectionfour__contact {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  gap: 10px;
-}
-
-.sectionfour__logo {
-  width: 40px;
-  cursor: pointer;
-}
-
-.sectionfour__contactContainer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  gap: 15px;
-}
-
 @media (max-width: 500px) {
   body {
     font-family: 'Barlow';
@@ -621,39 +584,6 @@ span:hover {
   }
   #sectionthree__description {
     width: 85%;
-  }
-  #sectionfour__heading {
-    font-size: 2.8rem;
-    padding: 20px;
-  }
-  .sectionfour__contact {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    gap: 10px;
-  }
-  .sectionfour__logo {
-    width: 40px;
-    cursor: pointer;
-  }
-  .sectionfour__contactContainer {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    gap: 15px;
   }
 }
 /*# sourceMappingURL=style.css.map */
