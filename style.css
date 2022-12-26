@@ -250,6 +250,22 @@ span:hover {
   width: 160px;
 }
 
+#sectionschedule__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sectionschedule__img {
+  width: 420px;
+}
+
 #sectionthree__text {
   margin-top: 90vh;
   display: -webkit-box;
@@ -524,6 +540,9 @@ span:hover {
     width: 80%;
     padding: 20px;
     font-size: 1.2rem;
+  }
+  .sectionschedule__img {
+    width: 200px;
   }
   #sectionthree {
     margin-top: 100px;

@@ -205,6 +205,16 @@ span:hover{
     text-decoration: none;
 }
 
+#sectionschedule__wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionschedule__img{
+    width: 420px;
+}
+
 #sectionthree__text{
     margin-top: 90vh;
     display: flex;
@@ -423,6 +433,10 @@ span:hover{
         width: 80%;
         padding: 20px;
         font-size: 1.2rem;
+    }
+
+    .sectionschedule__img{
+        width: 200px;
     }
 
     #sectionthree{
