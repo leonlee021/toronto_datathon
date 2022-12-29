@@ -700,6 +700,12 @@ span:hover {
     width: 100%;
     /* The width is the width of the web page */
   }
+
+  #locationBlock {
+    display: block;
+    height: 500px;
+  }
+
 }
 
 /*# sourceMappingURL=style.css.map */

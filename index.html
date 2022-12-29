@@ -103,21 +103,14 @@
         </div>
         <div id="sectionlocation" class="section">
             <div>Location</div>
-            <div id="googleMap" style="width:100%;height:400px;"></div>
+            <div class="locationBlock">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d360.86393745242486!2d-79.3826097!3d43.6500096!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4df5c6f910d1a232!2sEY%20Tower!5e0!3m2!1sen!2sca!4v1672336126713!5m2!1sen!2sca"
+                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
         </div>
     </div>
-    <script>
-        function myMap() {
-            var mapProp = {
-                // Address for the event
-                // TODO: Get API key for account
-                center: new google.maps.LatLng(43.649897031861784, -79.38231932095015),
-                zoom: 5,
-            };
-            var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
-        }
-    </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
 </body>
 
 </html>
