@@ -117,7 +117,7 @@ body {
 }
 
 .logo span {
-	color: ##a30202;
+	color: #a30202;
 }
 
 .logo p {
@@ -207,14 +207,20 @@ body {
 }
 
 .gallery {
-	height: 500px;
+	height: 750px;
+	margin-top: 25px;
+	margin-left: -75px;
+	width: 1300px;
+	padding-right: -100px;
+	background: url('../images/register.png');
+
 }
 
 #camera_wrap_1 {
 	margin-bottom: 0 !important;
-	margin-top: 10px;
-	background: url(../images/cntower.png) no-repeat;
-	height: 100px;
+	margin-top: 0px;
+	/* background: url(../images/cntower.png) no-repeat; */
+	height: 500px;
 }
 
 .camera_caption h2 {
@@ -222,6 +228,7 @@ body {
 	font-family: 'Barlow';
 	font-size: 50px;
 	font-weight: 700;
+	/* background: url('../images/register.png'); */
 	letter-spacing: -2px;
 }
 
@@ -815,11 +822,14 @@ body {
 }
 
 .pic2Ab {
-	float: left;
-	padding: 40px;
-	padding-top: 51px;
-	padding-right: 37px;
-	padding-bottom: 39px;
+	padding-bottom: 15px;
+	float: right;
+	padding: 34px;
+	padding-top: 41px;
+	padding-right: 20px;
+	padding-bottom: 0px;
+	height: 20%;
+	width: 20%;
 }
 
 .about2 {
@@ -836,7 +846,7 @@ body {
 	bottom: 0;
 	right: 0;
 	width: 1170px;
-	height: 254px;
+	height: 100px;
 	content: '';
 	z-index: 30;
 	background: url(../images/horL.png) no-repeat;
@@ -851,7 +861,7 @@ body {
 	bottom: 0;
 	right: 0;
 	width: 254px;
-	height: 370px;
+	height: 500px;
 	content: '';
 	z-index: 30;
 	background: url(../images/horL.png) no-repeat;
