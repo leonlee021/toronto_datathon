@@ -168,6 +168,14 @@ body {
 	width: 49%;
 }
 
+.sponsors {
+	margin-top: 25px;
+	float: right;
+	width: 98%;
+	margin-bottom: -175px;
+}
+
+
 .logo a {
 	cursor: pointer;
 	color: #fff;
