@@ -340,18 +340,18 @@ body {
 .slicknav_menu {
 	display: none;
 }
-
-/* @media (max-width: 500px) {
+/* 
+@media (max-width: 500px) {
 	.homepage {
-		background: url('../images/homepage.png');
+		background: none;
 		width: 50%;
-		/* width: 300px; */
-		/* height: auto; */
-		/* height: 750px; */
-		/* margin-top: 25px;
-		margin-left: -75px; */
-		/* padding-right: -100px; */
-	} */
+		width: 300px; 
+		height: auto;
+		height: 750px;
+		margin-top: 25px;
+		margin-left: -75px;
+		padding-right: -100px;
+	}
 	
 	.gallery {
 		/* height: 750px; */
@@ -359,9 +359,9 @@ body {
 		margin-left: -75px;
 		width: 300px;
 		padding-right: -100px;
-		background: url('../images/register.png');
+		background: none;
 	}
-}
+} */
 
 @media screen and (max-width: 991px) {
 	.news p {
