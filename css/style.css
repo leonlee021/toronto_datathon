@@ -103,9 +103,7 @@ body {
 	border-left: 3000px solid transparent;
 }
 
-/*.container{
-	outline:1px solid #fc0;
-}
+/*
 .row{
 	outline:1px solid #f00;
 }*/
@@ -641,13 +639,13 @@ body {
 	line-height: 23px;
 }
 
-.fa-cog {
+.fa-camera {
 	margin-left: 2px;
 	background: url(../images/cir.png) no-repeat;
-	padding: 26px;
+	padding: 25px;
 	font-size: 24px;
 	color: #fff;
-	font-family: 'Barlow';
+	font-family: FontAwesome;
 	text-align: center;
 }
 
@@ -663,14 +661,13 @@ body {
 	//margin-left: 20px;
 }
 
-.fa-tablet {
-	//margin-left: 20px;
-	width: 73px;
+.fa-list {
+	margin-left: 2px;
 	background: url(../images/cir.png) no-repeat;
-	padding: 26px;
+	padding: 25px;
 	font-size: 24px;
 	color: #fff;
-	font-family: 'Barlow';
+	font-family: FontAwesome;
 	text-align: center;
 }
 
@@ -895,7 +892,7 @@ body {
 .aboutUs h3 {
 
 	font-size: 28px;
-	/* color: #2f2f2f; */
+	color: #2f2f2f;
 	font-family: 'Barlow';
 	font-weight: 400;
 }
@@ -903,7 +900,7 @@ body {
 .about h3 {
 	margin-top: 51px;
 	font-size: 22px;
-	/* color: #2f2f2f; */
+	color: #2f2f2f;
 	font-family: 'Barlow';
 	font-weight: 300;
 }
