@@ -303,8 +303,9 @@ body {
 
 .homepage {
 	background: url('../images/homepage1.png');
+	margin-top: 50px;
+	margin-left: -25px;
 	/* height: 750px;
-	margin-top: 25px;
 	margin-left: -75px;
 	width: 50px;
 	padding-right: -100px; */
@@ -326,6 +327,12 @@ body {
 	height: 100vh;
 }
 
+.headerLogo {
+	height: 40px; 
+	width: 40px; 
+	margin-bottom: 5px;
+}
+
 #camera_wrap_1 {
 	margin-bottom: 0 !important;
 	margin-top: 0px;
@@ -344,6 +351,7 @@ body {
 
 .slicknav_menu {
 	display: none;
+	color: #501010;
 }
 
 
@@ -384,6 +392,7 @@ body {
 
 	.slicknav_menu {
 		display: block;
+		color: #501010
 	}
 
 	.about p {
@@ -2217,7 +2226,7 @@ textarea {
 	overflow: hidden;
 	height: 100%;
 	/* background: url(../images/bgFooter.png) no-repeat; */
-	background: #000000;
+	background: #501010;
 }
 
 .downLine {
@@ -2290,7 +2299,7 @@ textarea {
 .downLine input {
 	max-width: 95px;
 	border: 0;
-	background: #101010;
+	background: #501010;
 	font-size: 13px;
 	font-family: 'Barlow';
 	font-weight: 300;
@@ -2562,7 +2571,7 @@ margin-bottom: 35px !important;
 	top: -65px;
 	padding: 20px 0;
 	width: 100%;
-	background-color: #101010 !important;
+	background-color: #501010 !important;
 }
 
 /**/
