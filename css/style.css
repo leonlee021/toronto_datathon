@@ -83,7 +83,7 @@ body {
 	-o-background-size: cover;
 	background-size: cover;
 	background-color: #fff9f0;
-	background-color: #501010;
+	/* background-color: #501010; */
 }
 
 .headerLine:after {
@@ -130,10 +130,12 @@ body {
 	text-transform: lowercase;
 }
 
-#headerTitle {
-	color: white;
-	width: 500px;
-	margin-left: -50px;
+#headerTitle a {
+	color: #501010;
+	font-size: 24px;
+	/* width: 10px;
+	font: 3px; */
+	/* margin-left: -50px; */
 }
 
 
@@ -142,7 +144,9 @@ body {
 	background-color: #A30202;
 	color: white;
 	font-family: 'Barlow';
-	padding: 20px 25px;
+	padding: 15px 20px;
+	border-radius: 25px;
+	margin-right: -50px;
 	/* text-align: center; */
 	text-decoration: none;
 	/* display: inline-block; */
@@ -155,30 +159,30 @@ body {
 	transition: 0.5s;
 }
 
-.homepageButton:hover{
+.homepageButton:hover {
 	font-size: 21px;
 }
 
-.linkedinlogo{
-	width: 63px;
-    cursor: pointer;
+.linkedinlogo {
+	width: 43px;
+	cursor: pointer;
 	margin-left: -65px;
 	margin-top: -10px;
 	transition: 0.5s;
 }
 
-.linkedinlogo:hover{
+.linkedinlogo:hover {
 	width: 67px;
 }
 
-.instagramlogo{
-	width: 63px;
-    cursor: pointer;
+.instagramlogo {
+	width: 43px;
+	cursor: pointer;
 	margin-top: -10px;
 	transition: 0.5s;
 }
 
-.instagramlogo:hover{
+.instagramlogo:hover {
 	width: 67px;
 }
 
@@ -200,7 +204,7 @@ body {
 	transition: 0.5s;
 }
 
-.registerButton:hover{
+.registerButton:hover {
 	font-size: 24px;
 }
 
@@ -218,10 +222,14 @@ body {
 	/* margin-left: 150px; */
 }
 
-#sponsorscontainer{
+#sponsorscontainer {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+.speakersHeaders {
+	font-weight: bold;
 }
 
 
@@ -291,18 +299,21 @@ body {
 }
 
 #menu li a {
-	color: #fff;
+	/* color: #fff; */
+	color: #BD6C6C;
 	text-decoration: none;
 }
 
 #menu li a:hover {
 	border: none;
 	outline: none;
-	color: #BD6C6C;
+	/* color: #BD6C6C; */
+	/* color: #fff; */
+	font-size: large;
 }
 
 .homepage {
-	background: url('../images/homepage1.png');
+	background: url('../images/homepage2.png');
 	margin-top: 50px;
 	margin-left: -25px;
 	/* height: 750px;
@@ -321,15 +332,17 @@ body {
 	margin-left: -75px;
 	width: 1300px;
 	padding-right: -100px; */
-	background: url('../images/register1.png');
+	background: url('../images/about.png');
+	margin-top: -100px;
+	margin-left: -25px;
 	background-size: contain;
 	background-repeat: no-repeat;
 	height: 100vh;
 }
 
 .headerLogo {
-	height: 40px; 
-	width: 40px; 
+	height: 40px;
+	width: 40px;
 	margin-bottom: 5px;
 }
 
@@ -940,8 +953,8 @@ body {
 	padding-top: 41px;
 	padding-right: 20px;
 	padding-bottom: 0px;
-	height: 40%;
-	width: 40%;
+	height: 20%;
+	width: 20%;
 }
 
 .about1 {
@@ -956,8 +969,8 @@ body {
 	padding-top: 41px;
 	padding-right: 20px;
 	padding-bottom: 0px;
-	height: 40%;
-	width: 40%;
+	height: 20%;
+	width: 20%;
 }
 
 .about2 {
@@ -2571,7 +2584,8 @@ margin-bottom: 35px !important;
 	top: -65px;
 	padding: 20px 0;
 	width: 100%;
-	background-color: #501010 !important;
+	/* background-color: #501010 !important; */
+	background-color: #fff9f0 !important;
 }
 
 /**/
