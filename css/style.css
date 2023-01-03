@@ -64,7 +64,8 @@ td {
 }
 
 html {
-	background: #501010;
+	/* background: #501010; */
+	background: #fff9f0;
 }
 
 body {
@@ -81,6 +82,7 @@ body {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	background-color: #fff9f0;
 	background-color: #501010;
 }
 
@@ -116,6 +118,7 @@ body {
 	color: #000;
 }
 
+
 .logo span {
 	color: #a30202;
 }
@@ -146,7 +149,7 @@ body {
 	text-decoration: none;
 	/* display: inline-block; */
 	font-size: 20px;
-	margin: 580px 85px;
+	margin: 510px 65px;
 	/* border-radius: 25px; */
 	white-space: nowrap;
 	cursor: pointer;
@@ -155,13 +158,13 @@ body {
 }
 
 .homepageButton:hover{
-	font-size: 22px;
+	font-size: 21px;
 }
 
 .linkedinlogo{
 	width: 63px;
     cursor: pointer;
-	margin-left: -85px;
+	margin-left: -65px;
 	margin-top: -10px;
 	transition: 0.5s;
 }
@@ -186,12 +189,12 @@ body {
 	background-color: #A30202;
 	color: white;
 	font-family: 'Barlow';
-	padding: 25px 50px;
+	padding: 20px 45px;
 	/* text-align: center; */
 	text-decoration: none;
 	/* display: inline-block; */
-	font-size: 24px;
-	margin: 560px 550px;
+	font-size: 22px;
+	margin: 490px 480px;
 	border-radius: 25px;
 	white-space: nowrap;
 	cursor: pointer;
@@ -200,7 +203,7 @@ body {
 }
 
 .registerButton:hover{
-	font-size: 26px;
+	font-size: 24px;
 }
 
 /* .scheduleHeader {
@@ -287,7 +290,6 @@ body {
 }
 
 #menu {
-	//margin-top: 33px;
 	margin-top: 74px;
 	float: right;
 }
@@ -304,21 +306,28 @@ body {
 }
 
 .homepage {
-	background: url('../images/homepage.png');
-	height: 750px;
+	background: url('../images/homepage1.png');
+	/* height: 750px;
 	margin-top: 25px;
 	margin-left: -75px;
-	width: 1300px;
-	padding-right: -100px;
+	width: 50px;
+	padding-right: -100px; */
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 100vh;
+	/* background-size: 100%; */
 }
 
 .gallery {
-	height: 750px;
+	/* height: 750px;
 	margin-top: 25px;
 	margin-left: -75px;
 	width: 1300px;
-	padding-right: -100px;
-	background: url('../images/register.png');
+	padding-right: -100px; */
+	background: url('../images/register1.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 100vh;
 }
 
 #camera_wrap_1 {
@@ -340,28 +349,7 @@ body {
 .slicknav_menu {
 	display: none;
 }
-/* 
-@media (max-width: 500px) {
-	.homepage {
-		background: none;
-		width: 50%;
-		width: 300px; 
-		height: auto;
-		height: 750px;
-		margin-top: 25px;
-		margin-left: -75px;
-		padding-right: -100px;
-	}
-	
-	.gallery {
-		/* height: 750px; */
-		margin-top: 25px;
-		margin-left: -75px;
-		width: 300px;
-		padding-right: -100px;
-		background: none;
-	}
-} */
+
 
 @media screen and (max-width: 991px) {
 	.news p {
