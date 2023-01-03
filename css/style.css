@@ -99,7 +99,7 @@ body {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	border-bottom: 150px solid white;
+	border-bottom: 150px solid #fff9f0;
 	border-left: 3000px solid transparent;
 }
 
@@ -282,7 +282,7 @@ body {
 	float: left;
 	font-family: 'Barlow';
 	font-size: 14px;
-	color: #fff;
+	color: #000;
 	list-style: none;
 	text-transform: uppercase;
 	font-weight: 700;
@@ -605,7 +605,7 @@ body {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	border-bottom: 70px solid white;
+	border-bottom: 70px solid #fff9f0;
 	border-left: 2000px solid transparent;
 }
 
@@ -622,7 +622,7 @@ body {
 	/* background: url(../images/sliderL.png) center center no-repeat; */
 	background-size: cover;
 	/* height: 10px; */
-	border-top: 70px solid white;
+	border-top: 70px solid #fff9f0;
 	border-right: 2000px solid transparent;
 }
 
@@ -747,6 +747,10 @@ body {
 	margin: 0 auto;
 }
 
+#stats {
+	background-color: #fff;
+}
+
 .team h4 {
 	margin-top: 24px;
 	font-size: 20px;
@@ -842,6 +846,12 @@ body {
 .angular {
 	margin-top: 100px;
 }
+
+#about {
+	background-color: #fff9f0;
+}
+
+
 
 .angular .chart {
 	margin-top: 0;
@@ -1037,7 +1047,7 @@ body {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	border-bottom: 150px solid white;
+	border-bottom: 150px solid #fff9f0;
 	border-left: 3000px solid transparent;
 }
 
@@ -1057,7 +1067,7 @@ body {
 	-o-background-size: cover;
 	background-size: cover;
 	/* height: 10px; */
-	border-top: 194px solid white;
+	border-top: 194px solid #fff9f0;
 	border-right: 3000px solid transparent;
 	//bottom: 489px;
 }
@@ -1754,6 +1764,12 @@ textarea {
 	color: #666666;
 }
 
+#stats {
+	margin-top: -250px;
+	background-color: #fff9f0;
+}
+
+
 /**/
 .line6 iframe {
 	/* filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); */
@@ -1913,8 +1929,8 @@ textarea {
 	-o-background-size: cover;
 	background-size: cover;
 	/* height: 10px; */
-	border-top: 150px solid white;
-	border-right: 3000px solid transparent;
+	/* border-top: 150px solid white; */
+	/* border-right: 3000px solid transparent; */
 	//bottom: 489px;
 }
 
