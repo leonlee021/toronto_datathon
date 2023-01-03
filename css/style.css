@@ -2604,4 +2604,15 @@ margin-bottom: 35px !important;
 	background-color: #fff9f0 !important;
 }
 
+.error1 {
+	margin-top: 48px;
+	font-size: 48px;
+	font-weight: bold;
+}
+
+.error2 {
+	font-size: 48px;
+	margin-bottom: 48px;
+}
+
 /**/
