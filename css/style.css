@@ -218,7 +218,7 @@ body {
 .sponsors {
 	margin-top: 25px;
 	width: 70%;
-	margin-bottom: -100px;
+	margin-bottom: 50px;
 	/* margin-left: 150px; */
 }
 
@@ -313,7 +313,7 @@ body {
 }
 
 .homepage {
-	background: url('../images/homepage3.png');
+	background: url('../images/homepage.png');
 	margin-top: 50px;
 	margin-left: -25px;
 	/* height: 750px;
@@ -347,7 +347,7 @@ body {
 	margin-bottom: 5px;
 }
 
-.newtab{
+.newtab {
 	height: 25px;
 	width: 25px;
 	margin-bottom: 0px;
@@ -355,7 +355,7 @@ body {
 	filter: invert(100%);
 }
 
-.datasetrow{
+.datasetrow {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -400,11 +400,11 @@ body {
 		white-space: nowrap;
 		transition: 0.5s;
 	}
-	
+
 	.homepageButton:hover {
 		font-size: 17px;
 	}
-	
+
 	.linkedinlogo {
 		width: 43px;
 		cursor: pointer;
@@ -412,18 +412,18 @@ body {
 		margin-top: -10px;
 		transition: 0.5s;
 	}
-	
+
 	.linkedinlogo:hover {
 		width: 50px;
 	}
-	
+
 	.instagramlogo {
 		width: 43px;
 		cursor: pointer;
 		margin-top: -10px;
 		transition: 0.5s;
 	}
-	
+
 	.instagramlogo:hover {
 		width: 50px;
 	}
@@ -445,11 +445,11 @@ body {
 		white-space: nowrap;
 		transition: 0.5s;
 	}
-	
+
 	.homepageButton:hover {
 		font-size: 14px;
 	}
-	
+
 	.linkedinlogo {
 		width: 30px;
 		cursor: pointer;
@@ -457,18 +457,18 @@ body {
 		margin-top: -10px;
 		transition: 0.5s;
 	}
-	
+
 	.linkedinlogo:hover {
 		width: 35px;
 	}
-	
+
 	.instagramlogo {
 		width: 30px;
 		cursor: pointer;
 		margin-top: -10px;
 		transition: 0.5s;
 	}
-	
+
 	.instagramlogo:hover {
 		width: 35px;
 	}
@@ -490,11 +490,11 @@ body {
 		white-space: nowrap;
 		transition: 0.5s;
 	}
-	
+
 	.homepageButton:hover {
 		font-size: 12px;
 	}
-	
+
 	.linkedinlogo {
 		width: 30px;
 		cursor: pointer;
@@ -502,18 +502,18 @@ body {
 		margin-top: -5px;
 		transition: 0.5s;
 	}
-	
+
 	.linkedinlogo:hover {
 		width: 33px;
 	}
-	
+
 	.instagramlogo {
 		width: 30px;
 		cursor: pointer;
 		margin-top: -5px;
 		transition: 0.5s;
 	}
-	
+
 	.instagramlogo:hover {
 		width: 33px;
 	}
@@ -542,11 +542,11 @@ body {
 		white-space: nowrap;
 		transition: 0.5s;
 	}
-	
+
 	.homepageButton:hover {
 		font-size: 12px;
 	}
-	
+
 	.linkedinlogo {
 		width: 30px;
 		cursor: pointer;
@@ -554,18 +554,18 @@ body {
 		margin-top: -5px;
 		transition: 0.5s;
 	}
-	
+
 	.linkedinlogo:hover {
 		width: 33px;
 	}
-	
+
 	.instagramlogo {
 		width: 30px;
 		cursor: pointer;
 		margin-top: -5px;
 		transition: 0.5s;
 	}
-	
+
 	.instagramlogo:hover {
 		width: 33px;
 	}
@@ -587,11 +587,11 @@ body {
 		white-space: nowrap;
 		transition: 0.5s;
 	}
-	
+
 	.homepageButton:hover {
 		font-size: 12px;
 	}
-	
+
 	.linkedinlogo {
 		width: 30px;
 		cursor: pointer;
@@ -599,18 +599,18 @@ body {
 		margin-top: -5px;
 		transition: 0.5s;
 	}
-	
+
 	.linkedinlogo:hover {
 		width: 33px;
 	}
-	
+
 	.instagramlogo {
 		width: 30px;
 		cursor: pointer;
 		margin-top: -5px;
 		transition: 0.5s;
 	}
-	
+
 	.instagramlogo:hover {
 		width: 33px;
 	}
@@ -640,11 +640,11 @@ body {
 		white-space: nowrap;
 		transition: 0.5s;
 	}
-	
+
 	.homepageButton:hover {
 		font-size: 12px;
 	}
-	
+
 	.linkedinlogo {
 		width: 25px;
 		cursor: pointer;
@@ -652,18 +652,18 @@ body {
 		margin-top: -3px;
 		transition: 0.5s;
 	}
-	
+
 	.linkedinlogo:hover {
 		width: 28px;
 	}
-	
+
 	.instagramlogo {
 		width: 25px;
 		cursor: pointer;
 		margin-top: -3px;
 		transition: 0.5s;
 	}
-	
+
 	.instagramlogo:hover {
 		width: 28px;
 	}
@@ -686,11 +686,11 @@ body {
 		white-space: nowrap;
 		transition: 0.5s;
 	}
-	
+
 	.homepageButton:hover {
 		font-size: 12px;
 	}
-	
+
 	.linkedinlogo {
 		width: 25px;
 		cursor: pointer;
@@ -698,18 +698,18 @@ body {
 		margin-top: -3px;
 		transition: 0.5s;
 	}
-	
+
 	.linkedinlogo:hover {
 		width: 28px;
 	}
-	
+
 	.instagramlogo {
 		width: 25px;
 		cursor: pointer;
 		margin-top: -3px;
 		transition: 0.5s;
 	}
-	
+
 	.instagramlogo:hover {
 		width: 28px;
 	}
@@ -732,11 +732,11 @@ body {
 		white-space: nowrap;
 		transition: 0.5s;
 	}
-	
+
 	.homepageButton:hover {
 		font-size: 12px;
 	}
-	
+
 	.linkedinlogo {
 		width: 20px;
 		cursor: pointer;
@@ -744,18 +744,18 @@ body {
 		margin-top: -3px;
 		transition: 0.5s;
 	}
-	
+
 	.linkedinlogo:hover {
 		width: 25px;
 	}
-	
+
 	.instagramlogo {
 		width: 20px;
 		cursor: pointer;
 		margin-top: -3px;
 		transition: 0.5s;
 	}
-	
+
 	.instagramlogo:hover {
 		width: 25px;
 	}
@@ -780,11 +780,11 @@ body {
 		white-space: nowrap;
 		transition: 0.5s;
 	}
-	
+
 	.homepageButton:hover {
 		font-size: 10px;
 	}
-	
+
 	.linkedinlogo {
 		width: 20px;
 		cursor: pointer;
@@ -792,18 +792,18 @@ body {
 		margin-top: -5px;
 		transition: 0.5s;
 	}
-	
+
 	.linkedinlogo:hover {
 		width: 28px;
 	}
-	
+
 	.instagramlogo {
 		width: 20px;
 		cursor: pointer;
 		margin-top: -5px;
 		transition: 0.5s;
 	}
-	
+
 	.instagramlogo:hover {
 		width: 28px;
 	}
